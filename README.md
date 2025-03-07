@@ -53,7 +53,7 @@ Discovers active devices on a local network by sending ARP requests. Utilizes `s
 **Usage:**
 
 ```bash
-python Net_Scanner/Net_scanner.py -I 192.168.1.0/24
+python3 Net_Scanner/Net_scanner.py -I 192.168.1.0/24
 ```
 
 **Example Output:**
@@ -83,7 +83,7 @@ Allows users to change the MAC address of a network interface. Useful for privac
 **Usage:**
 
 ```bash
-python Mac_Changer/Mac_changer.py -i eth0 -m 00:11:22:33:44:55
+python3 Mac_Changer/Mac_changer.py -i eth0 -m 00:11:22:33:44:55
 ```
 
 **Options:**
@@ -114,7 +114,7 @@ Generates a random password containing letters, digits, and punctuation. The def
 **Usage:**
 
 ```bash
-python Generate-Password/generate-password.py
+python3 Generate-Password/generate-password.py
 ```
 
 **Options:**
@@ -144,7 +144,7 @@ Crawls a specified website, collecting all internal links and saving them to a C
 **Usage:**
 
 ```bash
-python Web_Crawler/crawler.py
+python3 Web_Crawler/crawler.py
 ```
 
 **How It Works:**
